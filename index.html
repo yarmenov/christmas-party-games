@@ -15,19 +15,22 @@
       </header>
 
       <main>
-        <form id="game-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the theme for your Christmas party game"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="game" id="game">Party game ideas</div>
+        <div class="form-container">
+          <form id="game-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the theme for your Christmas party game"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e. Music, Food, Movies, etc.</div>
+        </div>
+        <div class="game hidden" id="game"></div>
       </main>
       <footer>
         This AI project was coded by
